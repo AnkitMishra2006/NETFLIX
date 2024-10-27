@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.main{
+    background-image: url(assets/images/bgImage.jpg);
+    height: 80vh;
+    position: relative;
+}
+
+.main .box{
+    height: 80vh;
+    width: 100%;
+    background-color: #000000;
+    opacity: 0.25;
+    position: absolute;
+    top: 0px;
+}
+
+nav{
+    width: 80vw;
+    margin: auto;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
